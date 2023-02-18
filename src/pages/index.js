@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function MyPage() {
+function Home() {
   const [prompt, setPrompt] = useState("")
   const [answer, setAnswer] = useState("")
   const [isLoading, setIsLoading] = useState(false)
@@ -40,3 +40,5 @@ export default function MyPage() {
     </div>
   )
 }
+
+export default Home
